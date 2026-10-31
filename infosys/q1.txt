@@ -1,0 +1,17 @@
+Q1. Circular Grid Movement
+Array / Simulation
+Problem statement
+You are given a grid with R rows and C columns. Initially, a person is standing at position (0,0).
+
+You are also given a string S containing directions:
+- U: Move one cell up.
+- D: Move one cell down.
+- L: Move one cell left.
+- R: Move one cell right.
+The grid is circular, meaning:
+- Moving up from the first row takes you to the last row.
+- Moving down from the last row takes you to the first row.
+- Moving left from the first column takes you to the last column.
+- Moving right from the last column takes you to the first column.
+After performing all operations, return the final position as a one-dimensional index using:
+r*C+C

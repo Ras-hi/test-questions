@@ -1,0 +1,14 @@
+Q4. Count the Number of Ways to Reach the Destination Using a K-Faced Die
+Dynamic Programming
+Problem statement
+You are given a board containing N positions, numbered from 0 to N.
+
+A person starts at position 0 and wants to reach position N.
+
+A die has K faces, numbered from 1 to K. On each throw, the person moves forward by the number obtained on the die.
+
+If the movement exceeds position N, the excess movement is rolled back to the beginning of the board, and the person continues from the beginning.
+
+Find the number of possible ways to reach the destination.
+
+For this reconstructed version, we assume that the board wraps around circularly, and we count ways to reach N for the first time. The exact original destination and counting rules still need confirmation.

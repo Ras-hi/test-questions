@@ -1,0 +1,13 @@
+Q3. Maximum Valid Scratch Card Sequence
+Sliding Window / Two Pointers
+Problem statement
+You are given two strings S1 and S2 of equal length, representing two scratch-card sequences.
+
+You need to identify the longest continuous substring in which at most one position contains different characters between the two strings.
+
+A position is considered:
+- Matching if S1[i] == S2[i].
+- Scratched if S1[i] != S2[i].
+A valid continuous sequence can contain at most one scratched position.
+
+Return the maximum length of such a continuous sequence.

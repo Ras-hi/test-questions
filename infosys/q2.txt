@@ -1,0 +1,15 @@
+Q2. Minimum Cost to Transfer Water Between Tanks
+Prefix Sum / Greedy
+Problem statement
+There are N water tanks arranged in a straight line and connected by N-1 pipes.
+
+Each tank has:
+- A current water level.
+- A target water level.
+Each pipe has a transportation cost per unit of water transferred through it.
+
+Water can be transferred between tanks through the connecting pipes. A tank can temporarily hold transferred water, but its final water level must equal its target level.
+
+Your task is to calculate the minimum total cost required to make all tanks reach their target water levels.
+
+If the total initial water is not equal to the total target water, return -1, because transferring water cannot change the total quantity.
